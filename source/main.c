@@ -24,12 +24,11 @@ FILE *eapi_apihandlerout;
 FILE *eapi_apihandlerint;
 FILE *eapi_getscreen;
 
-int main(){
-    eapi_apihandlerin = fopen("../../api_input.aio", "w+");
-    eapi_apihandlerout = fopen("../../api_output.aio", "w+");
-    eapi_apihandlerint = fopen("../../api_integer.aio", "w+");
-
-    chdir("/../..");
+int main(int argc, char* args[]){
+    printf("This is the Empyrean data handler!\nIt is of no use to anyone but developers!\n");
+    eapi_apihandlerin = fopen("api_input.aio", "w+");
+    eapi_apihandlerout = fopen("api_output.aio", "w+");
+    eapi_apihandlerint = fopen("api_integer.aio", "w+");
 
     while(eapi_handler_leave == 0){
         fread(&eapi_io.eapi_in, sizeof(char), 1, eapi_apihandlerin);

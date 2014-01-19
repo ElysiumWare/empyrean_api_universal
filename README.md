@@ -3,6 +3,8 @@ empyrean_api_universal
 
 The universal "API" (Not Really)
 
+Bug fixes won't be renamed or put in a new folder when uploaded unless they are incompatible with old versions.
+
 This is more of an interface that makes it easy to access variables without an actual API.
 All outputs are in raw data.
 
