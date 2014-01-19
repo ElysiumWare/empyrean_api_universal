@@ -8,6 +8,7 @@ Bug fixes won't be renamed or put in a new folder when uploaded unless they are 
 This is more of an interface that makes it easy to access variables without an actual API.
 All outputs are in raw data.
 Remember, if an API is available for your language, use it instead!
+This is extremely limited relative to the actual APIs.
 Available APIs:
 C/C++: www.github.com/ElysiumWare/empyrean_api_c/
 
