@@ -54,5 +54,8 @@ int main(int argc, char* args[]){
         fseek(eapi_apihandlerout, 0, 0);
         fseek(eapi_apihandlerint, 0, 0);
     }
+    fclose(eapi_apihandlerin);
+    fclose(eapi_apihandlerout);
+    fclose(eapi_apihandlerint);
     return 0;
 }
