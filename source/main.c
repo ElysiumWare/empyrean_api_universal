@@ -26,6 +26,7 @@ FILE *eapi_getscreen;
 
 int main(int argc, char* args[]){
     printf("This is the Empyrean data handler!\nIt is of no use to anyone but developers!\n");
+    malloc(&eapi_out, sizeof(char*));
     eapi_apihandlerin = fopen("api_input.aio", "w+");
     eapi_apihandlerout = fopen("api_output.aio", "w+");
     eapi_apihandlerint = fopen("api_integer.aio", "w+");
